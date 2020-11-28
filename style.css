@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects{
+    padding-left: 20rem;
+}
+.wordmark_img{
+    width: 100%;
+    height: 100%;
+}
+
+.landing_container{
+    width: 100px;
+    height: 100px;
+}
+
+#garageland_img{
+    margin: 0 auto;
+}
+
+#garage_gallery_01{
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+#garage_gallery_02{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+/* #garage_gallery_03{
+    margin: 0 auto;
+    display: block;
+} */
+
+#garage_gallery_04{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+#garage_gallery_05{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+#garage_gallery_06{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 1000px;
+    width: 50%;
+}
+
+.nav{
+    width: 100vw;
+    margin: 0 auto;
+}
+    
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    word-spacing: 3px;
+    color: black;
+    text-transform: uppercase; 
+    text-align: justify; 
+    text-justify: inter-word;
+    letter-spacing: 1px;
+    margin: 45px;
+}
+
+.line_01{
+    letter-spacing: 0;
+    color: #24b784;
+}
+
+.line_02{
+    letter-spacing: 0;
+    color: #21bbc1;
+}
+
+.line_03{
+    letter-spacing: 0;
+    color: #65a3d8;
+}
+
+.line_04{
+    letter-spacing: 0;
+    color: #867fbc;
+}
+
+.line_05{
+    letter-spacing: 0;
+    color: #c42890;
+}
+
+.line_06{
+    letter-spacing: 0;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: #65a3d8;
+  }
+
+.norm{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+}
+
+#travel_01{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+/* __________________________________________________________________ */
+
+.cord_01{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase; 
+    letter-spacing: 0px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.cord_01_location_01{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase; 
+    letter-spacing: 0px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.container {
+    position: absolute;
+    top: 700px;
+    left: -25px;
+    letter-spacing: 0px;
+    color: coral;
+  }
+
+div .cord_01_location_01 { 
+      display: none;
+    }
+  
+div:hover .cord_01 {
+    display: none;
+}
+
+div:hover .cord_01_location_01 {
+    display: inline;
+}
+
+/* __________________________________________________________________ */
+
+.cord_02{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 0px;
+    margin: 0 auto;
+  
+}
+.container_02{
+    position: absolute;
+    top: 700px;
+    left: -25px;
+    letter-spacing: 0px;
+    color: coral;
+    margin-top: 375px;
+    margin-left: 80px;
+  }
+
+  .cord_02_location_02{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase; 
+    letter-spacing: 0px;
+    margin: 0 auto;
+    margin-top: 800px;
+    margin-left: 65px;
+}
+
+  div .cord_02_location_02 { 
+    display: none;
+  }
+
+  div:hover .cord_02 {
+    display: none;
+}
+
+div:hover .cord_02_location_02 {
+    display: inline;
+}
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+      font-size: 17px;
+      text-align: left; 
+      margin: 20px;
+    }
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#photo_01{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+
+
+#photo_02{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 65%;
+}
+
+#photo_04{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+#photo_05{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+#photo_06{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 55%;
+}
+
+#photo_07{
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 75%;
+}
+
