@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    color: gray;
+}
+
+h1{
+    position: fixed;
+    margin-top: 230px;
+    margin-left: 670px;
+    font-family: 'Abel', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+img{
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 400px;
+
+}
+
+.line{
+    font-family: 'Abel', sans-serif;
+    width: 1200px;
+    font-size: 300px;
+    position: fixed;
+    margin-left: -200px;
+    animation: code 20s linear infinite;
+}
+
+@keyframes code{
+    
+    0%{
+        top: 25%;
+        left: 25%;
+    }
+
+    80%{
+        top: 0%;
+        left: 25%;
+    }
+
+    100%{
+        top: 0%;
+        left: 25%;
+    }
+
+}
+
+
+
+
