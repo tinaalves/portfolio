@@ -73,9 +73,36 @@
 
 .nav{
     width: 100vw;
+    height: 45px;
     margin: 0 auto;
+    background-color: #65a3d8;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-right: 20px;
 }
-    
+
+.nav a{
+    color: white;
+    float: right;
+    margin-left: 12px;
+}
+
+.nav a:link{
+    text-decoration: none;
+    color: white;
+  }
+
+.nav_name{
+    font-size: 30px;
+}
+
+.line{
+    height: 15px;
+    background-color: plum;
+    border-width: 0px;
+    margin-top: 20px;
+}
 
 h1{
     font-family: 'Montserrat', sans-serif;

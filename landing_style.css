@@ -1,3 +1,16 @@
+a{
+    color: gray;
+}
+
+a:visited{
+    color: teal;
+
+}
+
+a:hover{
+    color: blanchedalmond;
+}
+
 body{
     background-color: white;
     color: gray;
