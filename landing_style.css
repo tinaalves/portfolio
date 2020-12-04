@@ -3,12 +3,13 @@ a{
 }
 
 a:visited{
-    color: teal;
+    color: gray;
 
 }
 
 a:hover{
-    color: blanchedalmond;
+    color: #65a3d8;
+   
 }
 
 body{
@@ -16,23 +17,29 @@ body{
     color: gray;
 }
 
+
 h1{
+    font-weight: 900;
     position: fixed;
-    margin-top: 230px;
-    margin-left: 670px;
-    font-family: 'Abel', sans-serif;
+    margin-top: 170px;
+    margin-left: 550px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    word-spacing: 3px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase; 
     color: gray;
-    font-size: 12px;
 }
 
 img{
     position: fixed;
-    margin-top: 10px;
+    margin-top: 27px;
     margin-left: 400px;
 
 }
 
 .line{
+    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Abel', sans-serif;
     width: 1200px;
     font-size: 300px;
@@ -59,6 +66,12 @@ img{
     }
 
 }
+
+
+
+
+
+
 
 
 
