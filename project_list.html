@@ -7,30 +7,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <title>____ projects</title>
     <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css"/>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
 </head>
 
 
 
 <body>
 
+  
 <div class="nav">
-    <span class="nav_name">
-        Tina Alves
-    </span>
-
-    <span>
+   <span><a href="#home" class="active nav_name">Tina Alves</a></span>
+    <div id="myLinks">
         <a href="/connect.html">Connect</a>
-    </span> 
-
-    <span>
         <a href="/garageland.html">Garageland</a>
-    </span>
-
-    <span>
-    </a><a href="/about.html">About</a>
-    </span>
-
+        <a href="/about.html">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
 
@@ -43,7 +48,7 @@
     </div> -->
 
     <div>
-        <a href="/dynamic_coding/index.html"><h1>Dynamic Code</h1></a> 
+        <a href="/dynamic_coding/index.html" rel="noopener noreferrer" target="_blank"><h1>Dynamic Code</h1></a> 
      </div>
 
      <div>
@@ -59,7 +64,7 @@
     </div>
 
     <div>
-        <a href="magazine_spreads.html"><h1>Magazine Design</h1></a>
+        <a href="magazine_spreads.html" rel="noopener noreferrer" target="_blank"><h1>Magazine Design</h1></a>
     </div>
 
     <div>
@@ -67,7 +72,7 @@
     </div>
 
     <div>
-        <a href="/bw_photos.html"><h1>Photography</h1></a>
+        <a href="/bw_photos.html" rel="noopener noreferrer" target="_blank"><h1>Photography</h1></a>
     </div>
 </div>  
 
